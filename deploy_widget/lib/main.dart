@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 import 'BottomNavigationPage.dart';
-import 'SportingPage.dart';
+import 'Meeting/Meeting_making.dart';
+
 
 
 void main() {

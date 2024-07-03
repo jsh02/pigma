@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 
 import 'CommunityPage.dart';
+import 'MapPage.dart';
 import 'SportingPage.dart';
 
 class BottomNavigationPage extends StatelessWidget {
@@ -23,10 +24,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   // List of widgets to display for each tab
   final List<Widget> _widgetOptions = [
-    Text(
-      '홈',
-      style: TextStyle(fontSize: 24,fontWeight: FontWeight.bold),
-    ),
+    google_maping(),
     CommunityPage(),
     SportingPage(),
     Text(
